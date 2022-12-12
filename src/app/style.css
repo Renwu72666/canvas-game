@@ -4,6 +4,7 @@ html * {
 
 body {
   background-color: grey;
+  width: 100%;
 }
 
 .App {
@@ -12,5 +13,7 @@ body {
 
 canvas {
   background-color: #fff;
-  margin: 1rem;
+  width: 80%;
+  /* padding: 7rem; */
+  margin: 2rem 0;
 }
