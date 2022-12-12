@@ -1,4 +1,5 @@
 import "./style.css";
+import BallGame from "./component/BallGame";
 import Circle from "./component/Circle";
 import React from "react";
 import Shape from "./component/Shape";
@@ -17,6 +18,7 @@ export const App = () => {
   return (
     <Container>
       <h1 className="App">Canvas Practice</h1>
+      <BallGame />
       <Circle />
       <Triangle />
       <Shape />
