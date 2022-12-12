@@ -1,11 +1,13 @@
+import "./style.css";
+import Circle from "./component/Circle";
 import React from "react";
+import Shape from "./component/Shape";
+import Triangle from "./component/Triangle";
 import styled from "styled-components";
 const Container = styled.div`
   height: 100%;
   position: relative;
-  .ant-menu:not(.ant-menu-horizontal) .ant-menu-submenu-selected {
-    background-color: #f5c910 !important;
-  }
+  text-align: center;
 `;
 
 export const App = () => {
@@ -14,7 +16,10 @@ export const App = () => {
 
   return (
     <Container>
-      <div className="App">Testing</div>
+      <h1 className="App">Canvas Practice</h1>
+      <Circle />
+      <Triangle />
+      <Shape />
     </Container>
   );
 };
